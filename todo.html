@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notey</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href=<"https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <h1>Notey</h1>
+    </div>
+    <div class="container">
+        <h2>WELCOME!</h2>
+        <p></p>
+        <button onclick="deletenote(event)">CLOSE</button>
+    </div>
+    <div class="backarea"></div>
+    <div class="popup">
+        <form>
+        <h2>ADD NOTES</h2>
+        <input placeholder="Title" class="inputbox1">
+        <input placeholder="Subject" class="inputbox2">
+        <button class="addnote">ADD</button>
+        <button class="cancel">CANCEL</button>
+        </form>
+    </div>
+    <button class="btn">+</button>
+<script src="todo.js"></script>
+</body>
+</html>
